@@ -1,0 +1,237 @@
+body {
+    background-color: white;
+}
+
+.text {
+    display: inline-flex;
+}
+
+.header {
+    display: inline-flex;
+}
+
+.header-text {
+    color: rgb(255, 255, 255);
+    font-family: 'Telex', sans-serif;
+    font-size: 30px;
+}
+
+.separate-r {
+    border-right: solid 1px white;
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+    height: 30px;
+}
+
+.flex-end {
+    text-align: end;
+    margin-right: 5%;
+    margin-top: 4%;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+#senai-logo {
+    margin-top: 17%;
+    margin-left: 47%;
+    margin-bottom: 30%;
+    width: 280px;
+    height: 65px;
+}
+
+/* .sub-header {
+    display: flex;
+    margin: 0;
+    width: 100%;
+    flex-direction: row-reverse;
+} */
+
+#home-img {
+    position: absolute;
+    margin-right: 0;
+    height: 330px;
+}
+
+.home-text {
+    margin-left: 17%;
+}
+
+.text {
+    color: rgb(0, 0, 0);
+}
+
+#faster-one {
+    font-family: 'Faster One', cursive !important;
+    color: rgb(0, 0, 0);
+    margin-left: 18%;
+    text-align: center;
+}
+
+#frame-processos-seletivos {
+    position: relative;
+    margin-top: 5%;
+    margin-left: 20%;
+    border-radius: 1.25em;
+    border: 5px solid rgb(0, 0, 0);
+    width: 300px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+#home-content {
+    display: inline-flex;
+    margin: 0;
+}
+
+.card-title {
+    font-family: 'League Gothic Condensed Regular', arial;
+}
+
+#selected {
+    border: 1px solid black;
+    height: 1px;
+}
+
+#chalkboard {
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+   
+}
+
+#notebook-icon {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+}
+
+#student-icon {
+    position: absolute;
+    right: 25px;
+    top: 70px;
+}
+
+.saiba-mais {
+    border: transparent;
+    height: 40px;
+    width: 130px;
+    margin-top: 10px;
+    background: linear-gradient(96.29deg, #893053 0%, #DD322E 93.52%);
+    border-radius: 10px;
+    font-family: 'Krub', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+#v-em {
+    margin-top: 20px;
+}
+
+.row {
+    margin: 0;  
+}
+
+.feedback {
+    align-content: center;
+}
+
+.titulo-feedback {
+    color: rgb(255, 255, 255);
+    font-family: 'Raleway', sans-serif;
+    font-size: 64px;
+    text-align: center;
+}
+
+h4 {
+   font-family: 'Oswald', sans-serif;
+   font-size: 36;
+   
+}
+
+.pergunta {
+    margin-left: 145px;
+    color: rgb(0, 0, 0);
+    margin-top: 50px;
+    display: block;
+}
+
+label {
+    font-family: Telex;
+    font-size: 20;
+    font-family: 'Telex', sans-serif;
+}
+
+.textarea {
+    outline: none !important;
+   list-style: none !important;
+  }
+
+  .col-redes {
+      background-color: rgb(0, 0, 0);
+      opacity: 70%;
+      text-align: center;
+      align-self: center;
+      margin-bottom: 0px;
+  }
+
+  .zap {
+      display: inline-flex;
+      text-align: center;
+      margin-bottom: 1%;
+  }
+
+  .col-copyright {
+      background-color: rgb(255, 255, 255);
+      text-align: center;
+
+  }
+
+  .made {
+      margin-bottom: 0px;
+  }
+
+.num-senaI {
+    margin-bottom: 0px;
+    color: white;
+
+}
+
+.zap-logo {
+    margin-left: 20px;
+}
+
+img.vector {
+    background-color: white;
+}
+
+.background-image {
+    background-image: url(../Imagens/background_image_canva.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.redes-icons {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#whatsapp-icon {
+    margin-right: 10px;
+    margin-top: 1px;
+}
+
+.link-td-none {
+    text-decoration: none !important;
+}
+
+.send {
+    border: transparent;
+    height: 40px;
+    width: 130px;
+    margin-top: 10px;
+    background: linear-gradient(
+    96.29deg, #893053 0%, #DD322E 93.52%);
+    border-radius: 10px;
+    font-family: 'Krub', sans-serif;
+    color: white;
+}
