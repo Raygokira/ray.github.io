@@ -90,35 +90,35 @@ function feedback() {
         console.log()
     } else {
         // console.log("Totalmente Satisfeito")
-        localStorage.setItem("Pergunta 2", "Totalmente Satisfeito")
+        localStorage.setItem("Pergunta 3", "Totalmente Satisfeito")
     }
 
     if (s_as === false) {
         console.log()
     } else {
         // console.log("Satisfeito")
-        localStorage.setItem("Pergunta 2", "Satisfeito")
+        localStorage.setItem("Pergunta 3", "Satisfeito")
     }
 
     if (n_as === false) {
         console.log()
     } else {
         // console.log("Neutro")
-        localStorage.setItem("Pergunta 2", "Neutro")
+        localStorage.setItem("Pergunta 3", "Neutro")
     }
 
     if (i_as === false) {
         console.log()
     } else {
         // console.log("Insatisfeito")
-        localStorage.setItem("Pergunta 2", "Insatisfeito")
+        localStorage.setItem("Pergunta 3", "Insatisfeito")
     }
 
     if (mi_as === false) {
         console.log()
     } else {
         // console.log("Muito Insatisfeito")
-        localStorage.setItem("Pergunta 2", "Muito Insatisfeito")
+        localStorage.setItem("Pergunta 3", "Muito Insatisfeito")
     }
     
     var ts_m = document.getElementById('ts_m').checked
@@ -131,35 +131,35 @@ function feedback() {
         console.log()
     } else {
         // console.log("Totalmente Satisfeito")
-        localStorage.setItem("Pergunta 3", "Totalmente Satisfeito")
+        localStorage.setItem("Pergunta 4", "Totalmente Satisfeito")
     }
 
     if (s_m === false) {
         console.log()
     } else {
         // console.log("Satisfeito")
-        localStorage.setItem("Pergunta 3", "Satisfeito")
+        localStorage.setItem("Pergunta 4", "Satisfeito")
     }
 
     if (n_m === false) {
         console.log()
     } else {
         // console.log("Neutro")
-        localStorage.setItem("Pergunta 3", "Neutro")
+        localStorage.setItem("Pergunta 4", "Neutro")
     }
 
     if (i_m === false) {
         console.log()
     } else {
         // console.log("Insatisfeito")
-        localStorage.setItem("Pergunta 3", "Insatisfeito")
+        localStorage.setItem("Pergunta 4", "Insatisfeito")
     }
 
     if (mi_m === false) {
         console.log()
     } else {
         // console.log("Muito Insatisfeito")
-        localStorage.setItem("Pergunta 3", "Muito Insatisfeito")
+        localStorage.setItem("Pergunta 4", "Muito Insatisfeito")
     }
 
     var ts_e = document.getElementById('ts_e').checked
@@ -172,35 +172,35 @@ function feedback() {
         console.log()
     } else {
         // console.log("Totalmente Satisfeito")
-        localStorage.setItem("Pergunta 4", "Totalmente Satisfeito")
+        localStorage.setItem("Pergunta 5", "Totalmente Satisfeito")
     }
 
     if (s_e === false) {
         console.log()
     } else {
         // console.log("Satisfeito")
-        localStorage.setItem("Pergunta 4", "Satisfeito")
+        localStorage.setItem("Pergunta 5", "Satisfeito")
     }
 
     if (n_e === false) {
         console.log()
     } else {
         // console.log("Neutro")
-        localStorage.setItem("Pergunta 4", "Neutro")
+        localStorage.setItem("Pergunta 5", "Neutro")
     }
 
     if (i_e === false) {
         console.log()
     } else {
         // console.log("Insatisfeito")
-        localStorage.setItem("Pergunta 4", "Insatisfeito")
+        localStorage.setItem("Pergunta 5", "Insatisfeito")
     }
 
     if (mi_e === false) {
         console.log()
     } else {
         // console.log("Muito Insatisfeito")
-        localStorage.setItem("Pergunta 4", "Muito Insatisfeito")
+        localStorage.setItem("Pergunta 5", "Muito Insatisfeito")
     }
 
     var sugestao = document.getElementById('sugestao').value
@@ -209,7 +209,7 @@ function feedback() {
         console.log()
     } else {
         // console.log(sugestao)
-        localStorage.setItem("Pergunta 5", sugestao)
+        localStorage.setItem("Pergunta 6", sugestao)
     }
 
     alert("Sua avaliação foi enviada!")
