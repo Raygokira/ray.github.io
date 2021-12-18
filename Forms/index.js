@@ -54,4 +54,8 @@ function cadastro() {
         // console.log(phone)
         localStorage.setItem("Telefone", phone)
     }
+    alert("O email de confirmação foi enviado")
+    location.reload()
+
 }
+

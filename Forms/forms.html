@@ -14,7 +14,7 @@
         rel="stylesheet">
     <link href="https://allfont.net/allfont.css?fonts=league-gothic" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
-    <link rel="icon" href="./senai-black.png">
+    <link rel="icon" href="../Imagens/Ícones/logo_tab.svg" >
     <link rel="stylesheet" href="./style_forms.css">
 </head>
 
@@ -25,7 +25,9 @@
             <div class="col">
                 <div class="header">
                     <div>
-                        <img id="senai-logo" src="../Imagens/logo_senai.svg">
+                        <a href="../index.html">
+                            <img id="senai-logo" src="../Imagens/logo_senai.svg">
+                        </a>
                     </div>
                 </div>
             </div>
@@ -57,20 +59,20 @@
     <form class="row g-3">
         <div class="col-md-6">
             <label for="inputEmail4" class="form-label">Nome</label>
-            <input type="email" class="form-control" placeholder="Nathan" id="name">
+            <input class="form-control" placeholder="Nathan" id="name">
         </div>
         <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Email</label>
-            <input type="password" class="form-control" placeholder="seuemail@gmail.com" id="e-mail">
+            <label for="inputPassword4" class="form-label">E-mail</label>
+            <input type="email" class="form-control" placeholder="seuemail@gmail.com" id="e-mail">
         </div>
         <div class="col-12">
-            <label for="inputAddress" class="form-label">Endereço e bairro</label>
+            <label for="inputAddress" class="form-label">Endereço</label>
             <input type="text" class="form-control" id="adress"
                 placeholder="Av. Shunji Nishimura, 605 - Distrito Industrial ">
         </div>
         <div class="col-12">
             <label for="inputAddress2" class="form-label">Complemento</label>
-            <input type="text" class="form-control" id="adress-2" placeholder="Apartamento">
+            <input type="text" class="form-control" id="adress-2" placeholder="Condomínio, BL. Apto.">
         </div>
         <div class="col-md-6">
             <label for="inputCity" class="form-label">Cidade</label>

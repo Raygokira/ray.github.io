@@ -173,11 +173,11 @@
     margin-bottom: 5%;
 }
 
-/* .select {
+.select {
     border-bottom: 5px solid #074f8759;
     filter: blur(2);
     border-radius: 2px;
-} */
+}
 
 #home {
     cursor: pointer;
@@ -316,13 +316,12 @@ h4 {
 }
 
 .course-type {
-    border: transparent;
+    border: solid 2px black;
+    border-radius: 0.5em;
     width: 50%;
-    background: linear-gradient(96.29deg, #893053 0%, #DD322E 93.52%);
-    border-radius: 0.25em;
-    font-family: 'Krub', sans-serif;
-    color: white;
     text-align: center;
+    background: rgb(36,36,40);
+    background: linear-gradient(90deg, rgba(36,36,40,1) 0%, rgba(50,50,57,0.022846638655462215) 36%, rgba(255,255,255,0.4430147058823529) 100%);
     display: inline-block;
 }
 
@@ -348,12 +347,3 @@ h4 {
 .content-align {
     text-align: center;
 }
-
-.top-content {
-    margin-top: 4%;
-}
-
-.courses {
-    color: initial;
-}
-

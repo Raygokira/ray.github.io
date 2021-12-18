@@ -212,4 +212,7 @@ function feedback() {
         localStorage.setItem("Pergunta 5", sugestao)
     }
 
+    alert("Sua avaliação foi enviada!")
+    location.reload()
+
 }
